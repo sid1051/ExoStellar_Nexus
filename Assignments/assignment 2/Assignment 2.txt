@@ -1,0 +1,19 @@
+1. Imported all the libraries - Start by importing the necessary libraries. These libraries are essential for data manipulation, visualization, and modeling.
+
+2. shape, head, info, describe-Load the dataset and perform basic data checks to understand its structure and content.
+
+3. made boxplot for all the individuals column to detect outliers - Create boxplots to visualize outliers in the dataset.
+
+4. removed outliers using IQR method(as data is not normally distributed) - Remove outliers using the Interquartile Range (IQR) method.
+
+5. done pandas profiling for different graphs-Generate a pandas profiling report to get an in-depth analysis of the dataset.
+
+6. Train test split - Split the dataset into training and testing sets.
+
+7. model fitting - Fit a Linear Regression model to the training data.
+
+8. calculated coefficients and bias - Extract the coefficients and the intercept (bias) from the trained model.
+
+9. calculated r2 score - Evaluate the model's performance using the R-squared metric.
+
+10. cross validated - Perform cross-validation to further evaluate the model's performance.
